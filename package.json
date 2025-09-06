@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A modern CRM system with beautiful UI",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@types/node": "^16.18.0",
     "@types/react": "^18.2.0",
