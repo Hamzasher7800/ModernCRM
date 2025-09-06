@@ -11,7 +11,7 @@ import TasksList from './components/Tasks/TasksList';
 import Analytics from './components/Analytics/Analytics';
 
 const ProtectedLayout: React.FC = () => {
-  const { user, logout } = useAuth();
+  const { logout } = useAuth();
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
