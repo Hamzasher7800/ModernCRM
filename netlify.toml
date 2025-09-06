@@ -4,14 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  NPM_FLAGS = "--production=false"
   CI = "false"
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-[dev]
-  command = "npm start"
-  port = 3000
